@@ -1,0 +1,79 @@
+    /* styles.css */
+
+.outerDiv {
+    background: linear-gradient(to right, #ffb370, #fdd6bd, #ffd8a0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .innerDiv {
+    width: 650px;
+    height: 268px;
+  }
+  
+  .h4 {
+    background: linear-gradient(to right, #DAA06D, #C1845A);
+    display: inline-block;
+    padding: 12px 18px;
+    margin: auto;
+    font-family: 'Lettera Text LL';
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    border-radius: 10%;
+  }
+  
+  .paragraph {
+    font-family: 'Lettera Text LL';
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .content {
+    font-family: 'Lettera Text LL';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  /* Media query for tablets and larger devices */
+  @media (min-width: 768px) {
+    .innerDiv {
+      width: 800px;
+    }
+  
+    .h4 {
+      font-size: 24px;
+    }
+  
+    .paragraph {
+      font-size: 72px;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .innerDiv {
+      width: 400px;
+    }
+  
+    .h4 {
+      font-size: 16px;
+    }
+  
+    .paragraph {
+      font-size: 24px;
+    }
+  }
+  
